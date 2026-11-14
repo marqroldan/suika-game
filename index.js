@@ -92,7 +92,7 @@ const Game = {
 	currentFruitSize: 0,
 	nextFruitSize: 0,
 	setNextFruitSize: function () {
-		Game.nextFruitSize = Math.floor(rand() * 5);
+		Game.nextFruitSize = Math.floor(rand() * 11);
 		Game.elements.nextFruitImg.src = `./assets/img/circle${Game.nextFruitSize}.png`;
 	},
 
